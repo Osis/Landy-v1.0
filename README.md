@@ -1,9 +1,9 @@
-**This is a small landing page used for integration testing for CF Apps
-iOS with different Cloud Foundry vendors**
+This is a small landing page used for integration testing for CF Apps
+iOS with different Cloud Foundry vendors.**
 
-##Currently deploys to...
-  -[ATOS](https://canopy-cloud.com/application-platforms/atos-cloud-foundry)
-  - [Bluemix](https://console.ng.bluemix.net)
-  - [Pivotal Web Services](https://run.pivotal.io)
+###Currently deploys to...
+  - [ATOS](https://canopy-cloud.com/application-platforms/atos-cloud-foundry) ([link](https://cf-apps.apps.eu01.cf.canopy-cloud.com))
+  - [Bluemix](https://console.ng.bluemix.net) ([link](https://cf-apps.mybluemix.net))
+  - [Pivotal Web Services](https://run.pivotal.io) ([link](https://cf-apps.cfapps.io))
 
-This project is based off of (Landy)[https://github.com/paolotripodi/Landy-v1.0]
+This project is based off of [Landy](https://github.com/paolotripodi/Landy-v1.0)
