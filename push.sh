@@ -1,11 +1,11 @@
 #!/bin/bash
 set -eu
 
-TARGETS=(atos bluemix pws)
+declare -a targets=("atos" "bluemix" "predix" "pws")
 
-for t in $TARGETS
+for t in ${targets[@]}
 do
-  echo "Pushing to $t"
+  echo "Deploying to $t"
   cf set-target $t
   cf push
 done
