@@ -1,0 +1,9 @@
+---
+applications:
+  - name: hello
+    buildpack: https://github.com/cloudfoundry/staticfile-buildpack
+    instances: 1
+    memory: 32MB
+    disk_quota: 64MB
+    hosts:
+      - cf-apps
