@@ -1,5 +1,5 @@
 This is a small landing page used for integration testing for CF Apps
-iOS with different Cloud Foundry vendors.**
+iOS with different Cloud Foundry vendors.
 
 ###Currently deploys to...
   - [Atos](https://canopy-cloud.com/application-platforms/atos-cloud-foundry) ([link](https://cf-apps.apps.eu01.cf.canopy-cloud.com))
