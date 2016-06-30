@@ -564,3 +564,7 @@ a .fa-github {
   font-size: 1.17em;
   line-height: 0;
 }
+
+.features .col-md-4, .features .row, .features .container {
+  background-color: #0bf397;
+}
