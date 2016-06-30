@@ -13,6 +13,7 @@ _/_/_/_/    _/_/_/  _/    _/    _/_/_/    _/_/_/
                                   													 
                                   													 */
 @import "iconfont.css";
+@import "font-awesome.min.css";
 @import "animate.min.css";
 
 /*-----------------------------------------------------------------------------------*/
@@ -81,7 +82,8 @@ header h1,
 }
 
 .features p{
-	color: #06b872;
+	/*color: #06b872;*/
+	color: grey; 
 }
 
 /*---- Background ----*/
@@ -145,10 +147,10 @@ nav.navbar.fixed-to-top{
 }
 
 
+
 /*-----------------------------------------------------------------------------------*/
 /* HEADER 
 /*-----------------------------------------------------------------------------------*/
-
 header{
 	padding: 150px 0px 0px 0px;
 	height: 960px;
@@ -345,7 +347,7 @@ header .carousel-indicators li {
 	overflow: hidden;
 	padding: 150px 0px 150px 0px;
 	min-height: 400px;
-	color: black;
+	color: grey;
 }
 
 .features p {
@@ -353,7 +355,7 @@ header .carousel-indicators li {
 }
 
 .features h2{
-	color: #ffffff;
+	color: grey;
 	text-transform: uppercase;
 	font-weight: 300;
 }
@@ -365,7 +367,7 @@ header .carousel-indicators li {
 	padding-top: 33px;
 	width: 150px;
 	height: 150px;
-	border: 2px solid #ffffff;
+	border: 2px solid grey;
 	border-radius: 100%;
 	text-align: center;
 	
@@ -373,7 +375,7 @@ header .carousel-indicators li {
 
 .features span.glyphicon, .features i{
 	margin-top: 3px;
-	color: #ffffff;
+	color: grey;
 	font-size: 5em;
 }
 
@@ -554,4 +556,11 @@ header, .social{
         background-size: 98%;
     	color: white;
     }
+}
+
+/* Moo */
+
+a .fa-github {
+  font-size: 1.17em;
+  line-height: 0;
 }
