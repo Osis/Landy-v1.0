@@ -1,8 +1,7 @@
 #!/bin/bash
 set -eu
 
-declare -a targets=("appfog")
-#declare -a targets=("anynines" "atos" "bluemix" "predix" "pws" "swisscom")
+declare -a targets=("appfog" "anynines" "atos" "bluemix" "predix" "pws" "swisscom")
 
 function set_image {
   pushd img/screenshots > /dev/null
