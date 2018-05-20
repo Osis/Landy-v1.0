@@ -1,8 +1,7 @@
-This is a small landing page used for integration testing for [CF Apps iOS](https://github.com/Osis/cf-apps-ios) with different [Cloud Foundry](https://www.cloudfoundry.org) vendors.
+This is a small landing page used for integration testing for [CF Apps iOS](https://github.com/Osis/cf-apps-ios) & [CF Swift SDK](https://github.com/Osis/cf-swift-sdk) with different [Cloud Foundry](https://www.cloudfoundry.org) vendors.
 
-###Currently deploys to...
+### Currently deploys to...
   - [anynines](https://paas.anynines.com) ([link](https://cf-apps.aws.ie.a9sapp.eu))
-  - [AppFog](https://www.ctl.io/appfog) ([link](https://cf-apps.useast.appfog.ctl.io))
   - [Atos](https://canopy-cloud.com/application-platforms/atos-cloud-foundry) ([link](https://cf-apps.apps.eu01.cf.canopy-cloud.com))
   - [Bluemix](https://console.ng.bluemix.net) ([link](https://cf-apps.mybluemix.net))
   - [Pivotal Web Services](https://run.pivotal.io) ([link](https://cf-apps.cfapps.io))
